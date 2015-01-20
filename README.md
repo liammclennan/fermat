@@ -27,6 +27,8 @@ Then
 
     $ npm test
 
+and you should see something happy like
+
     > fermat@1.0.0 test c:\work\fermat
     > mocha
 
