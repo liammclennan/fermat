@@ -1,7 +1,7 @@
 Fermat
 ======
 
-Fermat is a simple library for organising web states and generating urls. 
+Fermat is a simple library for organising web states and generating urls. Tell it the possible states of your web ui, and how those states map to urls and it will give you a url generation function. 
 
     var fermat = require('../lib/fermat')({
         'Inbox': '/inbox',
@@ -15,6 +15,8 @@ Fermat is a simple library for organising web states and generating urls.
     });
     
     // /calendar/march/14
+
+It works with require.js, node, browserify and [smodules](https://github.com/liammclennan/smodules).
 
 Run Tests
 -------
