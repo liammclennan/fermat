@@ -1,0 +1,14 @@
+{
+  "name": "fermat",
+  "version": "1.0.0",
+  "description": "Web state service",
+  "main": "lib/fermat.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Liam McLennan",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.1.0"
+  }
+}
