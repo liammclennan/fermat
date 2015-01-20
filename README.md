@@ -15,3 +15,26 @@ Fermat is a simple library for organising web states and generating urls.
     });
     
     // /calendar/march/14
+
+Run Tests
+-------
+
+First you need mocha.
+
+    npm install -g mocha
+    
+Then
+
+    $ npm test
+
+    > fermat@1.0.0 test c:\work\fermat
+    > mocha
+
+    Fermat
+        some states
+          V should generate url without route components
+          V should generate a url with a route component
+          V should generate a url with multiple route components
+
+
+    3 passing (17ms)
